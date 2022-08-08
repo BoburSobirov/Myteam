@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic:wght@200;300&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+.hero_section {
+  width: 1440px;
+  height: 700px;
+  border: 1px solid;
+  border-color: #014E56;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./images/hero-section-bg-img.png);
+}
+.hero_section .hero__container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.hero_section .hero__container header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+}
+.hero_section .hero__container header .navbar {
+  display: flex;
+}
+.hero_section .hero__container header .navbar .header_list, .hero_section .hero__container header .navbar .header__item {
+  display: flex;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: white;
+  font-family: "Livvic", sans-serif;
+  text-decoration: none;
+  margin-right: 32px;
+}
+.hero_section .hero__container header .header__btn {
+  width: 153px;
+  height: 48px;
+  border-radius: 24px;
+  background-color: #014E56;
+  border-color: white;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: "Livvic", sans-serif;
+  cursor: pointer;
+}
+.hero_section .hero__container .hero__heading {
+  display: flex;
+  width: 80%;
+  height: 200px;
+  margin-top: 100px;
+}
+.hero_section .hero__container .hero__heading .hero__heding-h1 {
+  flex: 1;
+}
+.hero_section .hero__container .hero__heading .hero__description {
+  flex: 1;
+}
+.hero_section .hero__container .hero__heading .hero__description p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: "Livvic", sans-serif;
+  color: white;
+  width: 445px;
+  margin-left: 30px;
+  margin-top: 83px;
+}
+
+.description_section {
+  width: 1440px;
+  height: 684px;
+  border: 1px solid;
+  margin: 0 auto;
+  background-image: url(./images/description-section-bg-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-color: #014E56;
+}
+.description_section .description_container {
+  width: 80%;
+  height: 404px;
+  margin: 0 auto;
+  margin-top: 140px;
+  display: flex;
+}
+.description_section .description_container .description_h1 {
+  flex: 1;
+}
+.description_section .description_container .description_h1 h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  font-family: "Livvic", sans-serif;
+  width: 445px;
+  color: white;
+}
+.description_section .description_container .description_paragraph {
+  flex: 1;
+}
+
+.section_list {
+  width: 1440px;
+  height: 745px;
+  border: 1px solid;
+  border-color: #014E56;
+  margin: 0 auto;
+  background-image: url(./images/section-list-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section_list .section_list_container {
+  width: 80%;
+  height: 465px;
+  margin: 0 auto;
+  margin-top: 140px;
+  flex-direction: column;
+}
+.section_list .section_list_container h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  font-family: "Livvic", sans-serif;
+  text-align: center;
+  width: 932px;
+  margin-left: 89px;
+  margin-top: 0px;
+  color: white;
+}
+.section_list .section_list_container h2 .strong {
+  color: #79C8C7;
+}
+.section_list .section_list_container .section_list_menu {
+  display: flex;
+  list-style: none;
+}
+.section_list .section_list_container .section_list_menu .section_list_item {
+  flex-direction: column;
+}
+.section_list .section_list_container .section_list_menu .section_list_item .section_list_img_1 {
+  margin-left: 150px;
+}
+.section_list .section_list_container .section_list_menu .section_list_item .section_list_paragraph {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: white;
+  width: 350px;
+  margin-bottom: 24px;
+  margin-top: -20px;
+}
+.section_list .section_list_container .section_list_menu .section_list_item .section_list_name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #79C8C7;
+  font-family: "Livvic", sans-serif;
+  margin-bottom: 2px;
+}
+.section_list .section_list_container .section_list_menu .section_list_item .section_list_profession {
+  font-size: 13px;
+  line-height: 18px;
+  font-family: "Livvic", sans-serif;
+  text-align: center;
+  color: white;
+  margin-top: 2px;
+}
+.section_list .section_list_container .section_list_menu .section_list_item .section__list_img {
+  width: 62px;
+  height: 62px;
+  margin-left: 150px;
+  margin-top: -20px;
+}
+
+.question_section {
+  width: 1440px;
+  height: 200px;
+  border: 1px solid #F67E7E;
+  margin: 0 auto;
+  background-image: url(./images/question-bg-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.question_section .question__container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.question_section .question__container h3 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  font-family: "Livvic", sans-serif;
+  color: black;
+}
+.question_section .question__container .question__button {
+  width: 153px;
+  height: 48px;
+  border-radius: 24px;
+  background-color: #F67E7E;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: black;
+  cursor: pointer;
+}
+
+footer {
+  width: 1440px;
+  height: 196px;
+  border: 1px solid;
+  border-color: #002529;
+  margin: 0 auto;
+  background-color: #002529;
+}
+footer .footer_container {
+  width: 80%;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 48px;
+  display: flex;
+}
+footer .footer_container .footer__logo {
+  flex: 0.5;
+}
+footer .footer_container .footer__logo .footer_list, footer .footer_container .footer__logo a {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  margin-left: -20px;
+  margin-right: 40px;
+  color: white;
+}
+footer .footer_container .footer__adress {
+  flex: 2.5;
+}
+footer .footer_container .footer__adress h3 {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  font-family: "Livvic", sans-serif;
+  color: white;
+  opacity: 0.6;
+  width: 150px;
+  margin-top: 0px;
+  margin-left: 125.5px;
+}
+footer .footer_container .site__apps {
+  flex: 2;
+}
+footer .footer_container .site__apps .fa-brands {
+  color: white;
+  width: 24px;
+  height: 24px;
+}
+footer .footer_container .site__apps .fa-square-facebook {
+  margin-left: 320px;
+}
+footer .footer_container .site__apps .footer__h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  font-family: "Livvic", sans-serif;
+  color: white;
+  opacity: 0.6;
+  text-align: end;
+}/*# sourceMappingURL=style.css.map */
